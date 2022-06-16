@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PTIT ELearning</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forget_password"><u>Quên mật khẩu?</u></string>
+    <string name="sign_out">Đăng xuất</string>
+    <string name="update_password">Đổi mật khẩu</string>
+
+    <!--    for remember password-->
+    <string name="REFNAME">JWTTOKEN</string>
+    <string name="KEY_USERNAME">username</string>
+    <string name="KEY_JWT_TOKEN">jwttoken</string>
+    <string name="IS_LOGIN">login</string>
+    <string name="USER_ROLES">userroles</string>
+
+    <string name="see_more_creditclass"><u>Xem thêm>></u></string>
+    <string name="resend_mail_verify"><u>Gửi lại mã xác thực</u></string>
+    <string name="alert_dialog_two_buttons_title">0</string>
+</resources>

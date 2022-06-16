@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECECEC"
+    tools:context=".timetable.time_table_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_marginTop="10dp">
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_arror_foward_left"
+               android:id="@+id/btnPreWeek"/>
+           <TextView
+               android:id="@+id/timeByWeek"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="timetable"
+               android:layout_gravity="center"
+               android:textColor="#007BFF"
+               android:textStyle="bold"/>
+           <ImageView
+               android:id="@+id/btnNextWeek"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_arrow_foward_right"/>
+       </LinearLayout>
+        <TextView
+            android:id="@+id/tvMessageTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="timetable"
+            android:layout_gravity="center"
+            android:textColor="#FF0000"
+            android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/lvTimetable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#FFFFFF"
+        android:dividerHeight="10dp"/>
+    </LinearLayout>
+</FrameLayout>
